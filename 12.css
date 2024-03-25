@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Background color for the body */
+}
+
+header {
+  background-color: transparent; /* Make header background transparent */
+  padding: 15px 0;
+  background-image: url('Images/logobackground.jpg'); /* Add background image */
+  background-size: cover; /* Cover the entire navbar */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  border-bottom: 3px solid #FFD700;
+}
+
+.logo img {
+  max-height: 70px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 25px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.nav-links li a:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Add transparency to hover effect */
+}
